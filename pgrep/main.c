@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <dirent.h>
 #include <ctype.h>
-#include "zlib/include/z_error.h"
-#include "zlib/include/z_file.h"
-#include "zlib/include/z_heap.h"
-#include "zlib/include/z_string.h"
+#include <z_error.h>
+#include <z_file.h>
+#include <z_heap.h>
+#include <z_string.h>
 
 bool parse_pid(const char *s, int *pid)
 {

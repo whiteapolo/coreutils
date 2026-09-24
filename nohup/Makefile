@@ -1,7 +1,7 @@
 CC = cc
 RELEASE_CFLAGS = -Wall -Wextra -O3
 DEV_CFLAGS = -Wall -Wextra -O0 -g
-TARGET = exe
+TARGET = nohup
 
 all: release
 
